@@ -1,3 +1,15 @@
+### Run Application using :
+ `rails s`
+### Run Test Cases Using:
+`bin/rails test test/controllers/api/robot_controller_test.rb`
+
+### SAMPLE curl request
+```
+curl -X POST http://localhost:3000/api/robot/0/orders \
+ -H 'cache-control: no-cache' \
+ -H 'content-type: application/json' \
+ -d '{ "commands": [ "PLACE 1,2,EAST", "MOVE", "MOVE", "LEFT", "MOVE", "REPORT" ] }'
+```
 # Assignment for Ruby on Rails
 
 ## Use Ruby Version 2.6.5
