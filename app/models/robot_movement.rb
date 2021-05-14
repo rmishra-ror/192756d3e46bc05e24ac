@@ -3,8 +3,8 @@ class RobotMovement
   VALID_COMMANDS = ['MOVE', 'LEFT', 'RIGHT', 'REPORT']
   VALID_FACINGS = ['NORTH', 'SOUTH', 'EAST', 'WEST']
   def initialize(x, y, facing, commands)
-    @x = x
-    @y = y
+    @x = x.to_i
+    @y = y.to_i
     @facing = facing
     @commands = commands
   end
@@ -47,4 +47,3 @@ class RobotMovement
     @x=x-1 if facing == 'WEST' && y > 0
   end
 end
-# RobotMovement.new(1,2, 'EAST', ['MOVE', 'MOVE', 'LEFT', 'MOVE', 'REPORT'])
