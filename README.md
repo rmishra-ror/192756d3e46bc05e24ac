@@ -1,6 +1,6 @@
-Assignment for Ruby on Rails
+# Assignment for Ruby on Rails
 
-Use Ruby Version 2.6.5
+## Use Ruby Version 2.6.5
 
 Task: Build an I/O toy robot simulation app.
 
@@ -32,3 +32,4 @@ c) Input: PLACE 1,2,EAST MOVE MOVE LEFT MOVE REPORT Output: 3,3,NORTH
 
 Note: Set 3000 as default port.
 
+![cardinal-points](https://user-images.githubusercontent.com/12711305/118280823-2e799900-b4ea-11eb-9211-31ae8912fb72.png)
